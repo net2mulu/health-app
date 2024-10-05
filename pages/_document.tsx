@@ -15,6 +15,11 @@ export default function Document() {
           href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
           rel="stylesheet"
         />
+
+        <link
+          href="https://fonts.cdnfonts.com/css/gilroy-bold"
+          rel="stylesheet"
+        />
       </Head>
       <body className="antialiased">
         <Main />

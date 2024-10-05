@@ -14,12 +14,14 @@ const config = withMT({
       fontFamily: {
         ab: ["ABeeZee", "sans-serif"],
         inter: ["Inter", "sans-serif"],
-        gilroy: ["Gilroy-Bold", "sans-serif"],
+        "gilroy-semi-bold": ["gilroy-semi-bold", "sans-serif"],
+        "gilroy-bold": ["gilroy-bold", "sans-serif"],
+        "gilroy-medium": ["gilroy-medium", "sans-serif"],
       },
       colors: {
         primary: "#0D447A",
         secondary: "#353535",
-        lightGray: "#5DBA47",
+        lime: "#5DBA47",
         mediumGray: "#868686",
         blue: "#BDDEFF",
         white: "#FFFFFF",
@@ -29,6 +31,7 @@ const config = withMT({
         "head-40": "40px",
         "head-24": "24px",
         "head-20": "20px",
+        "head-15": "15px",
         "head-14": "14px",
       },
       maxWidth: {

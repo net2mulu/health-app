@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Button } from "@material-tailwind/react";
 import { heroData } from "@/lib/data";
+
 export default function Hero() {
   return (
     <section className="container select-none relative text-center mx-auto max-w-custom  px-8">
@@ -16,7 +17,7 @@ export default function Hero() {
           />
         </div>
         {/* Blue Layer */}
-        <div className="absolute inset-0 bg-primary/90 blur-sm"></div>
+        <div className="absolute inset-0 bg-primary/90 mix-blend-normal"></div>
 
         <div className="md:hidden absolute bottom-80  flex justify-between px-2 w-full">
           <Image src="/left.png" alt="left" width={150} height={100} />
@@ -28,9 +29,9 @@ export default function Hero() {
         </div>
       </div>
       {/* Content Layer */}
-      <div className="font-gilroy absolute inset-0 flex flex-col-reverse md:flex-col  items-center justify-center">
+      <div className="font-gilroy-bold absolute inset-0 flex flex-col-reverse md:flex-col  items-center justify-center">
         {/* Centered Hero Image */}
-        <div className="-mb-52 md:mb-64 text-2xl md:text-5xl font-bold">
+        <div className="-mb-52 md:mb-64 text-2xl md:text-5xl">
           <h1 className="max-w-xs md:max-w-xl mb-1 bg-gradient-to-r from-white via-white to-[#BDDEFF] text-transparent bg-clip-text py-2">
             {heroData.title}
           </h1>
