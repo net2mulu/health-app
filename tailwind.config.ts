@@ -1,6 +1,6 @@
-import type { Config } from "tailwindcss";
+import withMT from "@material-tailwind/react/utils/withMT";
 
-const config: Config = {
+const config = withMT({
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -8,12 +8,35 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      boxShadow: {
+        custom: "0px 82px 112.4px 0px rgba(0, 0, 0, 0.05)",
+      },
+      fontFamily: {
+        ab: ["ABeeZee", "sans-serif"],
+        inter: ["Inter", "sans-serif"],
+        gilroy: ["Gilroy-Bold", "sans-serif"],
+      },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary: "#0D447A",
+        secondary: "#353535",
+        lightGray: "#5DBA47",
+        mediumGray: "#868686",
+        blue: "#BDDEFF",
+        white: "#FFFFFF",
+      } ,
+      fontSize: {
+        "head-48": "48px",
+        "head-40": "40px",
+        "head-24": "24px",
+        "head-20": "20px",
+        "head-14": "14px",
+      },
+      maxWidth: {
+        custom: "1536px",
       },
     },
   },
   plugins: [],
-};
+});
+
 export default config;
