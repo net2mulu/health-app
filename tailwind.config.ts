@@ -23,7 +23,7 @@ const config = withMT({
         mediumGray: "#868686",
         blue: "#BDDEFF",
         white: "#FFFFFF",
-      } ,
+      },
       fontSize: {
         "head-48": "48px",
         "head-40": "40px",
@@ -32,7 +32,7 @@ const config = withMT({
         "head-14": "14px",
       },
       maxWidth: {
-        custom: "1536px",
+        custom: "1138.54px",
       },
     },
   },

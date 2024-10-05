@@ -21,7 +21,7 @@ const Hero = () => {
 
   return (
     <section className="w-full">
-      <Navbar className="container mx-auto w-full max-w-7xl py-8 shadow-none">
+      <Navbar className="container mx-auto w-full max-w-custom py-8 shadow-none">
         <div className="flex items-center justify-between text-blue-gray-900">
           <Typography
             as="a"
