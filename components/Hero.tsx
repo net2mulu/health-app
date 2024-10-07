@@ -5,6 +5,8 @@ import { heroData } from "@/lib/data";
 export default function Hero() {
   return (
     <section className="container select-none relative text-center mx-auto max-w-custom  px-8">
+      
+
       {/* GIF Background */}
       <div className="relative h-[681.02px] overflow-hidden rounded-[35px]">
         <div className="absolute inset-0">

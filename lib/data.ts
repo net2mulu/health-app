@@ -34,24 +34,7 @@ export const footerData = {
   privacy: "Privacy and terms",
 };
 
-export const solutionsData = [
-  {
-    title: "Telemedicine",
-    description:
-      "Connect with healthcare professionals from the comfort of your home",
-    icon: "Video",
-  },
-  {
-    title: "Health Tracking",
-    description: "Monitor your vital signs and health metrics in real-time",
-    icon: "Activity",
-  },
-  {
-    title: "Prescription Management",
-    description: "Easily manage and refill your prescriptions online",
-    icon: "Clipboard",
-  },
-];
+
 
 export const experienceData = {
   title: "Experience Unparalleled Healthcare Excellence",

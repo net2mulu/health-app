@@ -20,7 +20,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <Navbar className="w-full mx-auto py-8 shadow-none">
+    <Navbar className="w-full mx-auto py-8 pb-10 shadow-none">
       <div className="container mx-auto max-w-custom flex px-8 items-center justify-between  text-blue-gray-900">
         <Typography
           as="a"

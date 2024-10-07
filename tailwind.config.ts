@@ -8,6 +8,9 @@ const config = withMT({
   ],
   theme: {
     extend: {
+      spacing:{
+        customGap:"448px"
+      },
       boxShadow: {
         custom: "0px 82px 112.4px 0px rgba(0, 0, 0, 0.05)",
       },
@@ -24,6 +27,7 @@ const config = withMT({
         lime: "#5DBA47",
         mediumGray: "#868686",
         blue: "#BDDEFF",
+        bluePrimary: "#236AD4",
         white: "#FFFFFF",
       },
       fontSize: {

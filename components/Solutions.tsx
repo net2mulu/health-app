@@ -11,7 +11,7 @@ const Solutions = () => {
   return (
     <div className="container mx-auto px-4 max-w-custom py-8 mt-24 md:mt-96">
       {/* Typography */}
-      <div className="text-start mb-20 md:mb-48 mx-8 md:mx-32 flex flex-col">
+      <div className="text-start mb-20 md:mb-[152px] mx-8 md:mx-32 flex flex-col">
         <Typography
           variant="small"
           className="font-gilroy-medium text-lime text-xs md:text-sm mb-2"
