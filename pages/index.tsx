@@ -4,6 +4,8 @@ import PricingModel from "@/components/PricingModel";
 import Hero from "@/components/Hero";
 import Solutions from "@/components/Solutions";
 import Testimonials from "@/components/Testimonials";
+import FAQ from "@/components/FAQ";
+import Email from "@/components/Email";
 
 export default function Home() {
   return (
@@ -14,7 +16,8 @@ export default function Home() {
       <CallToAction />
       <Testimonials />
       <PricingModel />
-      {/* <FAQ /> */}
+      <FAQ />
+      <Email />
     </main>
   );
 }
