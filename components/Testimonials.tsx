@@ -3,7 +3,7 @@ import React from "react";
 
 const Testimonials = () => {
   return (
-    <section className="w-ful">
+    <section className="w-full">
       <div className="relative mx-auto w-full max-w-custom px-8 py-72 bg-white flex justify-center items-center">
         <div className="flex items-center justify-center gap-1 absolute bottom-48 left-52">
           <Avatar

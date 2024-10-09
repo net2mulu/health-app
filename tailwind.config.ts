@@ -8,8 +8,8 @@ const config = withMT({
   ],
   theme: {
     extend: {
-      spacing:{
-        customGap:"448px"
+      spacing: {
+        customGap: "448px",
       },
       boxShadow: {
         custom: "0px 82px 112.4px 0px rgba(0, 0, 0, 0.05)",
@@ -40,6 +40,7 @@ const config = withMT({
       },
       maxWidth: {
         custom: "1138.54px",
+        inner: "785.91px",
       },
     },
   },
