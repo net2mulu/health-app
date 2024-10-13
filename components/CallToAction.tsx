@@ -4,7 +4,7 @@ import React from "react";
 
 const CallToAction = () => {
   return (
-    <section className="w-full py-20 md:py-40 mt-[162px] relative overflow-hidden bg-bluePrimary">
+    <section className="w-full py-20 md:py-40 mt-20 md:mt-[162px] relative overflow-hidden bg-bluePrimary">
       <div className="absolute inset-0 z-0">
         <Image
           src="/pattern.jpg"

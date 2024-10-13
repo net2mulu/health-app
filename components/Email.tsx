@@ -12,12 +12,12 @@ const Email = () => {
     setEmail("");
   };
   return (
-    <section className="w-full py-20 md:py-40 ">
-      <div className="relative z-10 mx-auto flex flex-col items-center justify-center w-full max-w-custom px-4 md:px-8">
-        <h2 className="text-2xl font-gilroy-semi-bold text-[#4E4E4E] font-semibold text-center mb-10">
+    <section className="w-[90%] mx-auto md:w-full py-16 md:py-40">
+      <div className="relative mx-auto z-10 flex flex-col items-center justify-center w-full max-w-custom px-4 md:px-8">
+        <h2 className="text-md md:text-2xl font-gilroy-semi-bold text-[#4E4E4E] font-semibold text-center mb-10">
           Subscribe Our Newsletter
         </h2>
-        <form onSubmit={handleSubmit} className="w-[440px] relative">
+        <form onSubmit={handleSubmit} className="w-full md:w-[440px]  relative">
           <input
             type="email"
             placeholder="Your email address"
@@ -28,7 +28,7 @@ const Email = () => {
           />
           <Button
             size="sm"
-            className="absolute capitalize right-2 top-1/2  transform -translate-y-1/2 bg-bluePrimary hover:bg-blue-600 rounded-full px-6 py-3.5"
+            className="absolute capitalize right-2 top-1/2  transform -translate-y-1/2 bg-[#0D447A] hover:bg-blue-600 rounded-full px-6 py-3.5"
             type="submit"
           >
             Subscribe

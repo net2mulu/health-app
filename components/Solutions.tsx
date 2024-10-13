@@ -92,7 +92,7 @@ const Solutions = () => {
               alt="voice_chat"
               width={132}
               height={8}
-              className="pt-8 absolute -left-10 top-3"
+              className="pt-8 absolute -left-6 md:-left-10 top-3"
             />
             <Image
               src="/voice.png"
@@ -123,7 +123,7 @@ const Solutions = () => {
               alt="voice_chat"
               width={132}
               height={8}
-              className="pt-8 absolute -right-14 bottom-10"
+              className="pt-8 absolute -right-6 md:-right-14 bottom-10"
             />
           </CardBody>
         </Card>

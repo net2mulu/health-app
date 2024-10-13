@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Facts = () => {
   return (
-    <div className="container mx-auto px-4 max-w-custom  mt-24 md:mt-[200px] ">
+    <div className="container mx-auto px-4 max-w-custom  mt-20 md:mt-[200px] ">
       <Typography
         variant="small"
         color="blue"

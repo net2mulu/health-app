@@ -16,7 +16,7 @@ export default function Home() {
       <CallToAction />
       <Testimonials />
       <PricingModel />
-      <FAQ />
+      {/* <FAQ /> */}
       <Email />
     </main>
   );
