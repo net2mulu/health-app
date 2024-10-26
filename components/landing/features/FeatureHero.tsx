@@ -53,7 +53,7 @@ const FeatureHero = () => {
               </clipPath>
             </defs>
             <image
-              href="/bcd2.png"
+              href="/assets/bcd2.png"
               width="1138"
               height="485"
               clipPath="url(#clip-path)"
@@ -73,7 +73,7 @@ const FeatureHero = () => {
               </clipPath>
             </defs>
             <image
-              href="/bcd2.png"
+              href="/assets/bcd2.png"
               width="338"
               height="246"
               clipPath="url(#clip-path2)"

@@ -53,9 +53,9 @@ const Solutions = () => {
             color="transparent"
             className="m-0 rounded-none h-[40%]"
           >
-            <Image src="/mesh.png" alt="donut" fill className="pb-4" />
+            <Image src="/assets/mesh.png" alt="donut" fill className="pb-4" />
             <Image
-              src="/donut.png"
+              src="/assets/donut.png"
               alt="donut"
               width={90}
               height={64}
@@ -88,14 +88,14 @@ const Solutions = () => {
         <Card className="md:absolute rounded-[27px] md:-mt-16 inset-0 mx-auto  bg-primary h-[425.58px] w-[321px] md:w-[357.64px] text-white z-20 shadow-none">
           <CardBody className="relative flex flex-col justify-center items-center h-full w-full">
             <Image
-              src="/vchat.png"
+              src="/assets/vchat.png"
               alt="voice_chat"
               width={132}
               height={8}
               className="pt-8 absolute -left-6 md:-left-10 top-3"
             />
             <Image
-              src="/voice.png"
+              src="/assets/voice.png"
               alt="voice"
               width={256}
               height={8}
@@ -119,7 +119,7 @@ const Solutions = () => {
               Learn More
             </Button>
             <Image
-              src="/vidcall.png"
+              src="/assets/vidcall.png"
               alt="voice_chat"
               width={132}
               height={8}
@@ -135,9 +135,9 @@ const Solutions = () => {
             color="transparent"
             className="m-0 rounded-none h-[40%]"
           >
-            <Image src="/mesh.png" alt="donut" fill className="pb-4" />
+            <Image src="/assets/mesh.png" alt="donut" fill className="pb-4" />
             <Image
-              src="/bar.png"
+              src="/assets/bar.png"
               alt="bar"
               width={120}
               height={64}

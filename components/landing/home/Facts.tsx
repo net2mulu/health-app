@@ -22,7 +22,7 @@ const Facts = () => {
       <div className="flex flex-col md:flex-row justify-center w-1/2 mx-auto md:w-full gap-4 mt-[66px] md:mt-[130px]">
         <Button className="flex items-center gap-3 px-6 bg-bluePrimary rounded-full">
           <Image
-            src="/globe-icon.png"
+            src="/assets/globe-icon.png"
             alt="globe"
             width={38}
             height={38}

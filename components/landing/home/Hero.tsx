@@ -11,7 +11,7 @@ export default function Hero() {
       <div className="relative h-[681.02px] overflow-hidden rounded-[35px]">
         <div className="absolute inset-0">
           <Image
-            src="/background.gif" // Replace with your GIF path
+            src="/assets/background.gif" // Replace with your GIF path
             alt="Background GIF"
             fill={true}
             unoptimized={true}
@@ -22,12 +22,12 @@ export default function Hero() {
         <div className="absolute inset-0 bg-primary/90 mix-blend-normal"></div>
 
         <div className="md:hidden absolute bottom-80  flex justify-between px-2 w-full">
-          <Image src="/left.png" alt="left" width={150} height={100} />
-          <Image src="/right.png" alt="right" width={150} height={100} />
+          <Image src="/assets/left.png" alt="left" width={150} height={100} />
+          <Image src="/assets/right.png" alt="right" width={150} height={100} />
         </div>
         <div className="absolute bottom-72 md:-bottom-72  justify-between md:px-28 w-full hidden md:flex">
-          <Image src="/left.png" alt="left" width={438} height={533} />
-          <Image src="/right.png" alt="right" width={438} height={533} />
+          <Image src="/assets/left.png" alt="left" width={438} height={533} />
+          <Image src="/assets/right.png" alt="right" width={438} height={533} />
         </div>
       </div>
       {/* Content Layer */}
@@ -47,7 +47,7 @@ export default function Hero() {
         </div>
         <div className="absolute bottom-80 md:-bottom-36 w-full max-w-[280px] aspect-[200/152] md:max-w-[666px] md:aspect-[666/452]">
           <Image
-            src="/hero-img.png"
+            src="/assets/hero-img.png"
             alt="Hero Image"
             fill
             className="shadow-custom rounded-[8px] md:rounded-[26px] object-contain"

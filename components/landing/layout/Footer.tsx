@@ -18,9 +18,9 @@ const Footer = () => {
               {footerData.description}
             </Typography>
             <div className="flex justify-start items-center gap-4 ">
-              <Image src="/x.png" alt="fb" width={18} height={12} />
-              <Image src="/tg.png" alt="fb" width={18} height={12} />
-              <Image src="/fb.png" alt="fb" width={18} height={12} />
+              <Image src="/assets/x.png" alt="fb" width={18} height={12} />
+              <Image src="/assets/tg.png" alt="fb" width={18} height={12} />
+              <Image src="/assets/fb.png" alt="fb" width={18} height={12} />
             </div>
           </div>
 

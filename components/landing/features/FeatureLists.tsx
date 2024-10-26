@@ -44,29 +44,26 @@ export default function FeatureLists() {
   ];
 
   return (
-    <section className="w-full px-[170px] mt-12 md:mt-48">
-      <div className="max-w-[915px] mx-auto grid grid-cols-1 md:grid-cols-3">
-        {/* Left Column */}
-        <div className="space-y-4 md:space-y-8 justify-self-center  w-max bg-white">
+    <section className="w-full md:px-[170px] mt-12 md:mt-48">
+      <div className="w-full max-w-[915px] mx-auto grid grid-cols-1 md:grid-cols-3">
+        <div className="space-y-4 md:space-y-8 md:mt-11 w-max">
           {features.slice(0, 4).map((feature, index) => (
             <FeatureCard key={index} {...feature} />
           ))}
         </div>
 
-        {/* Middle Column */}
-        <div className="space-y-8 justify-self-center my-16 w-screen md:w-auto px-8 md:px-0 md:-mt-24">
-          <Card className="p-10 md:p-12 gap-4 bg-lime text-white w-full rounded-[28px]">
+        <div className="space-y-10  my-16 w-screen md:w-[280px] px-8 md:px-0 md:-mt-20">
+          <Card className="p-10 gap-6 bg-lime text-white w-full rounded-[28px]">
             <div className="">
               <Typography
-                variant="h5"
                 color="white"
-                className="font-normal font-gilroy-bold mb-2 text-head-20"
+                className="font-gilroy-bold font-bold mb-2 text-head-20"
               >
                 Open Scheduling
               </Typography>
               <Typography
                 color="white"
-                className="mb-4 font-gilroy-medium text-[13px] font-normal"
+                className="text-head-15 font-normal font-gilroy-medium leading-5"
               >
                 Find available appointment slots based on the visit type and
                 provider, and schedule directly without needing a MyChart
@@ -75,15 +72,14 @@ export default function FeatureLists() {
             </div>
             <div className="">
               <Typography
-                variant="h5"
                 color="white"
-                className="font-normal font-gilroy-bold mb-2 text-md"
+                className="font-gilroy-bold font-bold mb-2 text-head-20"
               >
                 Hello Patient
               </Typography>
               <Typography
                 color="white"
-                className="mb-4 font-gilroy-medium text-[13px] font-normal"
+                className="text-head-15 font-normal font-gilroy-medium leading-5"
               >
                 Use your smartphone or tablet for automatic check-in upon
                 arrival at the clinic.
@@ -91,40 +87,51 @@ export default function FeatureLists() {
             </div>
             <div className="">
               <Typography
-                variant="h5"
                 color="white"
-                className="font-normal font-gilroy-bold mb-2 text-md"
+                className="font-gilroy-bold font-bold mb-2 text-head-20"
               >
                 Find Care Now
               </Typography>
               <Typography
                 color="white"
-                className="font-gilroy-medium text-xs font-normal"
+                className="text-head-15 font-normal font-gilroy-medium leading-5"
               >
                 Search for nearby urgent care or emergency departments and
                 notify them of your arrival.
               </Typography>
             </div>
           </Card>
-          <Card className="w-full p-10 md:p-12 border border-gray-300 rounded-[28px] shadow-none">
-            <Typography
-              variant="h5"
-              className="mb-4 font-normal font-gilroy-bold text-md"
-            >
+          <Card className="w-full p-10 space-y-6 border border-gray-300 rounded-[28px] shadow-none">
+            <Typography className="text-secondary text-sm md:text-head-20 font-normal font-gilroy-semi-bold leading-6 ">
               Upcoming Tests and Procedures
             </Typography>
-            <Typography className="text-[13px] font-normal text-mediumGray ">
+            <Typography className="text-mediumGray text-head-15 font-normal font-gilroy-medium leading-5">
               Monitor and follow up on upcoming tests and procedures.
             </Typography>
           </Card>
         </div>
 
-        {/* Right Column */}
-        <div className="space-y-8 justify-self-center w-max bg-white">
+        <div className="space-y-8 w-full">
           {features.slice(4).map((feature, index) => (
             <FeatureCard key={index} {...feature} />
           ))}
         </div>
+        {/* Left Column */}
+        {/* <div className="space-y-4 md:space-y-8   w-max">
+          {features.slice(0, 4).map((feature, index) => (
+            <FeatureCard key={index} {...feature} />
+          ))}
+        </div> */}
+
+        {/* Middle Column */}
+        {/* */}
+
+        {/* Right Column */}
+        {/* <div className="space-y-8  w-full">
+          {features.slice(4).map((feature, index) => (
+            <FeatureCard key={index} {...feature} />
+          ))}
+        </div> */}
       </div>
     </section>
   );
@@ -138,17 +145,14 @@ function FeatureCard({
   description: string;
 }) {
   return (
-    <div className="w-max shadow-none">
+    <div className="w-full shadow-none">
       <div className="flex items-start justify-start gap-4 p-2">
         <div className="bg-lime rounded-full w-4 h-4 flex-shrink-0"></div>
         <div className="-mt-1">
-          <Typography
-            variant="h6"
-            className="text-secondary text-sm md:text-head-20 font-[600] font-gilroy-bold leading-6 md:mb-2 max-w-[225px]"
-          >
+          <Typography className="text-secondary text-sm md:text-head-20 font-normal font-gilroy-semi-bold leading-6 md:mb-2">
             {title}
           </Typography>
-          <Typography className="text-xs md:text-sm font-normal font-gilroy-medium text-mediumGray w-full max-w-[283px] md:max-w-[218px]">
+          <Typography className="text-xs md:text-head-15 font-normal font-gilroy-medium text-mediumGray w-full max-w-[283px] md:max-w-[218px]">
             {description}
           </Typography>
         </div>

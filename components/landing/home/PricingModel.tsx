@@ -6,14 +6,14 @@ const PricingModel = () => {
   return (
     <section className="relative overflow-hidden w-full py-28  -mt-10">
       <Image
-        src="/money.jpg"
+        src="/assets/money.jpg"
         alt="money"
         width={377.85}
         height={377.85}
         className="blur hidden md:block absolute -top-16 -left-32"
       />
       <Image
-        src="/money.jpg"
+        src="/assets/money.jpg"
         alt="money"
         width={158}
         height={158}
@@ -21,7 +21,7 @@ const PricingModel = () => {
       />
 
       <Image
-        src="/money.jpg"
+        src="/assets/money.jpg"
         alt="money"
         width={377.85}
         height={377.85}
@@ -29,7 +29,7 @@ const PricingModel = () => {
       />
 
       <Image
-        src="/money.jpg"
+        src="/assets/money.jpg"
         alt="money"
         width={158}
         height={158}

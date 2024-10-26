@@ -10,7 +10,7 @@ const Testimonials = () => {
             variant="circular"
             alt="user 3"
             className="border-8 w-[50px] h-[50px] md:w-[61px] md:h-[61px] border-white hover:z-10 focus:z-10"
-            src="/avatar.jpg"
+            src="/assets/avatar.jpg"
           />
           <div className="flex flex-col px-2 items-start justify-center">
             <Typography className="font-ab font-normal text-xs md:text-sm max-w-[405px] text-[#5B5B5B]">
@@ -27,7 +27,7 @@ const Testimonials = () => {
             variant="circular"
             alt="user 3"
             className="border-8 w-[50px] h-[50px] md:w-[61px] md:h-[61px] border-white hover:z-10 focus:z-10"
-            src="/avatar.jpg"
+            src="/assets/avatar.jpg"
           />
           <div className="flex flex-col px-2 items-start justify-center">
             <Typography className="font-ab font-normal text-xs md:text-sm max-w-[405px] text-[#5B5B5B]">
@@ -44,7 +44,7 @@ const Testimonials = () => {
             variant="circular"
             alt="user 3"
             className="border-8 w-[61px] h-[61px] border-white hover:z-10 focus:z-10"
-            src="/avatar.jpg"
+            src="/assets/avatar.jpg"
           />
           <div className="flex flex-col px-2 items-start justify-center">
             <Typography className="font-ab font-normal text-xs md:text-sm max-w-[405px] text-[#5B5B5B]">
@@ -61,7 +61,7 @@ const Testimonials = () => {
             variant="circular"
             alt="user 3"
             className="border-8 w-[50px] h-[50px] md:w-[61px] md:h-[61px] border-white hover:z-10 focus:z-10"
-            src="/avatar.jpg"
+            src="/assets/avatar.jpg"
           />
           <div className="flex flex-col px-2 items-start justify-center">
             <Typography className="font-ab font-normal text-xs md:text-sm max-w-[405px] text-[#5B5B5B]">
@@ -93,7 +93,7 @@ const Testimonials = () => {
                   variant="circular"
                   alt="user 3"
                   className="border-4 md:border-8 w-[33px] h-[33px] md:w-[86px] md:h-[86px] border-white hover:z-10 focus:z-10"
-                  src="/avatar.jpg"
+                  src="/assets/avatar.jpg"
                 />
                 <div className=" w-[33px] h-[33px] md:w-[86px] md:h-[86px] rounded-full bg-[#7199D4]"></div>
                 <div className=" w-[33px] h-[33px] md:w-[86px] md:h-[86px] rounded-full bg-[#7199D4]/50"></div>

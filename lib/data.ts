@@ -62,24 +62,24 @@ export const TabData = [
     label: "Scheduling and Appointments",
     value: "Scheduling and Appointments",
     title: "Scheduling and Appointments",
-    imageSrc: "/phone.png",
+    imageSrc: "/assets/phone.png",
   },
   {
     label: "Health",
     value: "Health",
     title: "Health",
-    imageSrc: "/girl.png",
+    imageSrc: "/assets/girl.png",
   },
   {
     label: "Payment and Insurance",
     value: "Payment and Insurance",
     title: "Payment and Insurance",
-    imageSrc: "/girl.png",
+    imageSrc: "/assets/girl.png",
   },
   {
     label: "Messaging",
     value: "Messaging",
     title: "Messaging",
-    imageSrc: "/phone.png",
+    imageSrc: "/assets/phone.png",
   },
 ];
