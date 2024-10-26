@@ -34,8 +34,6 @@ export const footerData = {
   privacy: "Privacy and terms",
 };
 
-
-
 export const experienceData = {
   title: "Experience Unparalleled Healthcare Excellence",
   stats: [
@@ -57,4 +55,31 @@ export const faqData = [
       "Yes, we use state-of-the-art encryption and follow strict privacy guidelines to ensure your medical data is always secure and confidential.",
   },
   // Add more FAQ items as needed
+];
+
+export const TabData = [
+  {
+    label: "Scheduling and Appointments",
+    value: "Scheduling and Appointments",
+    title: "Scheduling and Appointments",
+    imageSrc: "/phone.png",
+  },
+  {
+    label: "Health",
+    value: "Health",
+    title: "Health",
+    imageSrc: "/girl.png",
+  },
+  {
+    label: "Payment and Insurance",
+    value: "Payment and Insurance",
+    title: "Payment and Insurance",
+    imageSrc: "/girl.png",
+  },
+  {
+    label: "Messaging",
+    value: "Messaging",
+    title: "Messaging",
+    imageSrc: "/phone.png",
+  },
 ];

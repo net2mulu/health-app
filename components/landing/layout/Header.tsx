@@ -8,6 +8,7 @@ import {
 } from "@material-tailwind/react";
 import { app_name, navLinks } from "@/lib/data";
 import { CircleX, Menu } from "lucide-react";
+import Link from "next/link";
 
 const Hero = () => {
   const [openNav, setOpenNav] = React.useState(false);
@@ -22,13 +23,12 @@ const Hero = () => {
   return (
     <Navbar className="w-full mx-auto py-8 pb-10 shadow-none">
       <div className="container mx-auto max-w-custom flex md:px-8 items-center justify-between text-blue-gray-900">
-        <Typography
-          as="a"
-          href="#"
+        <Link
+          href="/"
           className="text-black font-ab mr-4 cursor-pointer py-1.5 text-2xl font-[400]"
         >
           {app_name}
-        </Typography>
+        </Link>
         <div className="hidden lg:block">
           <ul className="text-mediumGray font-inter mt-2 mb-4 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
             {navLinks.map((data, index) => (
@@ -38,9 +38,9 @@ const Hero = () => {
                 variant="small"
                 className="flex items-center gap-x-2 p-1 text-mediumGray font-medium"
               >
-                <a href={data.href} className="flex items-center">
+                <Link href={data.href} className="flex items-center">
                   {data.name}
-                </a>
+                </Link>
               </Typography>
             ))}
           </ul>

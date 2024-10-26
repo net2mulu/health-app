@@ -1,11 +1,10 @@
-import CallToAction from "@/components/CallToAction";
-import Facts from "@/components/Facts";
-import PricingModel from "@/components/PricingModel";
-import Hero from "@/components/Hero";
-import Solutions from "@/components/Solutions";
-import Testimonials from "@/components/Testimonials";
-import FAQ from "@/components/FAQ";
-import Email from "@/components/Email";
+import CallToAction from "@/components/landing/home/CallToAction";
+import Facts from "@/components/landing/home/Facts";
+import PricingModel from "@/components/landing/home/PricingModel";
+import Hero from "@/components/landing/home/Hero";
+import Solutions from "@/components/landing/home/Solutions";
+import Testimonials from "@/components/landing/home/Testimonials";
+import FAQ from "@/components/landing/home/FAQ";
 
 export default function Home() {
   return (
@@ -17,7 +16,6 @@ export default function Home() {
       <Testimonials />
       <PricingModel />
       <FAQ />
-      <Email />
     </main>
   );
 }
