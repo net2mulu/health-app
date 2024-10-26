@@ -36,6 +36,7 @@ const config = withMT({
         "head-40": "40px",
         "head-24": "24px",
         "head-20": "20px",
+        "head-16": ["1rem", { lineHeight: "1.3rem" }],
         "head-15": ["0.9375rem", { lineHeight: "1.2188rem" }],
         "head-14": "14px",
         "head-13": "13px",

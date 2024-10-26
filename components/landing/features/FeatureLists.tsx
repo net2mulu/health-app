@@ -46,7 +46,7 @@ export default function FeatureLists() {
   return (
     <section className="w-full md:px-[170px] mt-12 md:mt-48">
       <div className="w-full max-w-[915px] mx-auto grid grid-cols-1 md:grid-cols-3">
-        <div className="space-y-4 md:space-y-8 md:mt-11 w-max">
+        <div className="space-y-4 md:space-y-8 md:mt-11 justify-self-center md:justify-self-start w-max">
           {features.slice(0, 4).map((feature, index) => (
             <FeatureCard key={index} {...feature} />
           ))}
@@ -57,7 +57,7 @@ export default function FeatureLists() {
             <div className="">
               <Typography
                 color="white"
-                className="font-gilroy-bold font-bold mb-2 text-head-20"
+                className="font-gilroy-bold font-bold mb-2 text-head-16 md:text-head-20"
               >
                 Open Scheduling
               </Typography>
@@ -73,7 +73,7 @@ export default function FeatureLists() {
             <div className="">
               <Typography
                 color="white"
-                className="font-gilroy-bold font-bold mb-2 text-head-20"
+                className="font-gilroy-bold font-bold mb-2 text-head-16 md:text-head-20"
               >
                 Hello Patient
               </Typography>
@@ -88,7 +88,7 @@ export default function FeatureLists() {
             <div className="">
               <Typography
                 color="white"
-                className="font-gilroy-bold font-bold mb-2 text-head-20"
+                className="font-gilroy-bold font-bold mb-2 text-head-16 md:text-head-20"
               >
                 Find Care Now
               </Typography>
@@ -102,7 +102,7 @@ export default function FeatureLists() {
             </div>
           </Card>
           <Card className="w-full p-10 space-y-6 border border-gray-300 rounded-[28px] shadow-none">
-            <Typography className="text-secondary text-sm md:text-head-20 font-normal font-gilroy-semi-bold leading-6 ">
+            <Typography className="text-secondary  font-gilroy-bold font-bold mb-2 text-head-16 md:text-head-20 leading-6 ">
               Upcoming Tests and Procedures
             </Typography>
             <Typography className="text-mediumGray text-head-15 font-normal font-gilroy-medium leading-5">
@@ -111,7 +111,7 @@ export default function FeatureLists() {
           </Card>
         </div>
 
-        <div className="space-y-8 w-full">
+        <div className="space-y-8 justify-self-center md:justify-self-start w-max md:w-full">
           {features.slice(4).map((feature, index) => (
             <FeatureCard key={index} {...feature} />
           ))}
