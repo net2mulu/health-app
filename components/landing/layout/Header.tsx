@@ -45,14 +45,15 @@ const Hero = () => {
             ))}
           </ul>
         </div>
-
-        <Button
-          // variant="filled"
-          size="lg"
-          className="capitalize font-inter font-normal text-sm hidden lg:inline-block bg-primary rounded-full"
-        >
-          <span>Get started</span>
-        </Button>
+        <Link href="/admin">
+          <Button
+            // variant="filled"
+            size="lg"
+            className="capitalize font-inter font-normal text-sm hidden lg:inline-block bg-primary rounded-full"
+          >
+            <span>Get started</span>
+          </Button>
+        </Link>
         <IconButton
           variant="text"
           className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
@@ -72,20 +73,22 @@ const Hero = () => {
                 variant="small"
                 className="flex items-center gap-x-2 p-1 font-medium text-mediumGray"
               >
-                <a href={data.href} className="flex items-center">
+                <Link href={data.href} className="flex items-center">
                   {data.name}
-                </a>
+                </Link>
               </Typography>
             ))}
           </ul>
           <div className="flex items-center gap-x-1">
-            <Button
-              // variant="filled"
-              size="lg"
-              className="capitalize  lg:inline-block bg-primary rounded-full"
-            >
-              <span className="font-inter">Get started</span>
-            </Button>
+            <Link href="/admin">
+              <Button
+                // variant="filled"
+                size="lg"
+                className="capitalize  lg:inline-block bg-primary rounded-full"
+              >
+                <span className="font-inter">Get started</span>
+              </Button>
+            </Link>
           </div>
         </div>
       </Collapse>

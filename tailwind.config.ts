@@ -8,6 +8,9 @@ const config = withMT({
   ],
   theme: {
     extend: {
+      borderRadius: {
+        "13": "13px",
+      },
       spacing: {
         customGap: "448px",
       },
