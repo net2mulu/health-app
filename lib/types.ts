@@ -20,3 +20,21 @@ export interface FormData {
   minPatients: string;
   costPerPatient: string;
 }
+
+export interface PricingFeature {
+  text: string;
+}
+
+export interface PricingPagePlan {
+  name: string;
+  price: string;
+  description: string;
+  features: PricingFeature[];
+  isRecommended?: boolean;
+}
+
+export interface ContactInfo {
+  icon: React.ElementType;
+  title: string;
+  content: React.ReactNode;
+}

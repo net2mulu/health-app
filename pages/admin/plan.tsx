@@ -105,7 +105,7 @@ export default function Plan() {
           </div>
         }
       />
-      <div className="container gap-8  mt-12">
+      <div className=" gap-8  mt-12">
         {pricingData.map((plan, index) => (
           <PaymentCard key={index} {...plan} />
         ))}

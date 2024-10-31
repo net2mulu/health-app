@@ -7,14 +7,15 @@ import {
   MessageSquare,
   FileText,
   LogOut,
+  ArrowRightLeft,
+  BookCheck,
+  BadgeDollarSign,
 } from "lucide-react";
 import { useRouter } from "next/router";
 
 const SideBar = () => {
   const router = useRouter();
   const { pathname } = router;
-
-  console.log(pathname);
 
   return (
     <aside className="w-max pt-12 bg-white shadow-md flex flex-col px-14 items-center">
@@ -41,6 +42,21 @@ const SideBar = () => {
             href: "/admin/messages",
           },
           { name: "Plan", icon: FileText, href: "/admin/plan" },
+          {
+            name: "Patient Portal",
+            icon: ArrowRightLeft,
+            href: "/admin/patient-portal",
+          },
+          {
+            name: "Doc Portal",
+            icon: BookCheck,
+            href: "/admin/doc-portal",
+          },
+          {
+            name: "Subscription",
+            icon: BadgeDollarSign,
+            href: "/admin/subscription",
+          },
         ].map((item) => (
           <Link
             key={item.name}

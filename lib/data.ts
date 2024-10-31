@@ -1,3 +1,5 @@
+import { PricingPagePlan } from "./types";
+
 export const app_name = "LOGO";
 
 export const navLinks = [
@@ -83,3 +85,62 @@ export const TabData = [
     imageSrc: "/assets/phone.png",
   },
 ];
+
+export const pricingPlans: PricingPagePlan[] = [
+  {
+    name: "Basic Plan",
+    price: "290",
+    description:
+      "Includes 1 clinician & 50 patients with a limit of 1000 patients +250/mo per clinical",
+    features: [
+      { text: "Include 1 provider" },
+      { text: "Rate per additional provider $250" },
+      { text: "Max of 10 providers" },
+      { text: "Includes 50 patients" },
+      { text: "Rate per additional 50 patients $40" },
+      { text: "Max of 1000 patinets" },
+    ],
+  },
+  {
+    name: "Medium Plan",
+    price: "420",
+    description:
+      "Includes 1 clinician & 250 patients with a limit of 1000 patients +250/mo per clinical",
+    features: [
+      { text: "Include 1 provider" },
+      { text: "Rate per additional provider $240" },
+      { text: "Max of 50 providers" },
+      { text: "Includes 250 patients" },
+      { text: "Rate per additional 50 patients $40" },
+      { text: "Max of 1000 patinets" },
+    ],
+  },
+  {
+    name: "Unlimited Plan",
+    price: "300",
+    description:
+      "Includes 1 clinician & unlimited members +$300/mo per clinician",
+    features: [
+      { text: "Include 1 provider" },
+      { text: "Rate per additional provider $240" },
+      { text: "Unlimited providers" },
+      { text: "Unlimited patients" },
+      { text: "+$300/mo per clinician" },
+    ],
+    isRecommended: true,
+  },
+];
+
+export const PRODUCT_NAME = "PRODUCTNAME";
+
+export const COMPANY_DESCRIPTION = {
+  intro: `Our ${PRODUCT_NAME} app`,
+  description: `Our ${PRODUCT_NAME} app is a cloud-based electronics health record(${PRODUCT_NAME}) and practice management solution for medical practices of all sizes. it offers appointment scheduling, charting, billing, telemedicine, and e-prescribing with an integrated suite, The solution is ONC-ATCB certified and HIPAA compliant.`,
+  weekday: "Monday - Friday: 08:00 - 17:00",
+  weekend: "Saturday & Sunday: 08:00 - 12:00",
+  address: "1 Road New York,EEUU",
+  mobile: "+1(123) -7890",
+  email: "tailnext@gmail.com",
+  heading: "Ready to Get Started",
+  subheading: "Get in Touch",
+};

@@ -18,7 +18,7 @@ const PaymentCard: React.FC<PricingPlan> = ({
   additionalPatientPrice,
 }) => {
   return (
-    <div className="flex gap-6 justify-center w-full items-center mb-10">
+    <div className="flex gap-6 justify-center w-full items-center  mb-10">
       <div className="mb-2 max-w-[200px]">
         <div className="flex gap-4 items-center justify-start">
           <Typography
